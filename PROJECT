@@ -1,0 +1,7 @@
+version: "2"
+domain: hiningmeng.cn
+repo: hiningmeng.cn/appservice-controller
+resources:
+- group: k8s
+  version: v1
+  kind: AppService
